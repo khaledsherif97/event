@@ -1,0 +1,46 @@
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(129, 42, 42, 0.5)), url(../view-futuristic-concert.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    height: 100vh;
+}
+.nav-link{
+    color: white;
+    list-style-type: none;
+   
+}
+.nav-link:focus,
+.nav-link:hover {
+  
+   color:brown;
+}
+.side-nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -250px;
+    display: flex;
+    z-index: 9;
+    
+}
+
+#view{
+    display:block;
+}
+.pargraph{
+    display: none;
+}
+#countDown{
+    background-image: linear-gradient(rgba(134, 28, 28, 0.5), rgba(206, 13, 13, 0.5)), url(../people-celebrating-new-year-s-eve-city.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    min-height: 50vh ;
+    max-height:100vh ;
+}
+.item{
+    height: 30vh;
+   
+}
